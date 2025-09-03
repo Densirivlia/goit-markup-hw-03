@@ -24,13 +24,19 @@ img {
 a {
     text-decoration: none;
 }
-.container {
-    max-width: 1440px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
 }
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .nav-logo, 
 .footer-logo{
@@ -44,6 +50,12 @@ a {
 }
 .nav-logo .text-logo {
     color: #2e2f42;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 40px;
+    
 }
 
 .nav-links {
@@ -72,8 +84,15 @@ a {
     letter-spacing: 0.02em;
 }
 
+.address-list {
+    
+}
+
 .hero {
     background-color: #2E2F42;
+    width: 1158px;
+    height: 600px;
+    display: flex;
 }
 
 .hero-title {
