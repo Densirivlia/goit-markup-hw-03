@@ -25,12 +25,7 @@ a {
     text-decoration: none;
 }
 
-.header {
-    padding-top: 24px;   
-    padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9fc
 
-}
 
 .container {
     max-width: 1158px;
@@ -56,9 +51,21 @@ a {
     color: #2e2f42;
 }
 
-/* .header-nav {
+.header {
+    padding-top: 24px;   
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
+    
+}
+
+.header .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
 }
 .nav-list {
     display: flex;
@@ -67,7 +74,7 @@ a {
 .address-list {
     display: flex;
     gap: 40px;
-}*/
+}
 
 
 
@@ -180,6 +187,7 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 72px;
     
 }
 .team-list {}
@@ -236,9 +244,11 @@ a {
 
 .footer {
     background-color: #2e2f42;
+    
 }   
 .footer-text-logo {
     color: #f4f4fd;
+
     }
 .footer-description {
     font-weight: 400;
