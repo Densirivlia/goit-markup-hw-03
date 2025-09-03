@@ -24,9 +24,11 @@ img {
 a {
     text-decoration: none;
 }
+
 .header {
-    border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
+    padding-top: 24px;   
+    padding-bottom: 24px;
+
 }
 
 .container {
@@ -47,16 +49,26 @@ a {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 76px;
 }
 .nav-logo .text-logo {
     color: #2e2f42;
 }
 
-.nav-item {
-    display: inline-block;
-    margin-right: 40px;
-    
+/* .header-nav {
+    display: flex;
+    align-items: center;
 }
+.nav-list {
+    display: flex;
+    gap: 32px;
+}
+.address-list {
+    display: flex;
+    gap: 40px;
+}*/
+
+
 
 .nav-links {
     font-style: normal;
@@ -84,15 +96,14 @@ a {
     letter-spacing: 0.02em;
 }
 
-.address-list {
-    
-}
+/* --- Sections 1 --- */
 
 .hero {
     background-color: #2E2F42;
-    width: 1158px;
     height: 600px;
-    display: flex;
+    padding: 188px 0;
+    text-align: center;
+
 }
 
 .hero-title {
@@ -102,6 +113,7 @@ a {
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .hero-button {
@@ -112,19 +124,33 @@ a {
     letter-spacing: 0.04em;
     border: none;
     cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    margin-bottom: 188px;
 }
 .hero-button:hover,
 .hero-button:focus {
     background-color:#404BBF;
 }
 
-.advent {}
+/* --- Sections 2 --- */
+
+.advent {
+}
 
 .advent-title {}
 
-.advent-list {}
+.advent-list {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    /*display: flex;
+    gap: 32px;*/
+}
+.advent-item {
 
-.advent-item {}
+}
 
 .advent-subtitle {
     font-weight: 500;
@@ -132,14 +158,18 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .advent-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
+/* --- Sections 3 --- */
+
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
 }
 .team-title {
     text-transform: capitalize;
@@ -169,7 +199,12 @@ a {
     letter-spacing: 0.02em;
 }
 
-.portfolio {}
+/* --- Sections 4 portfolio --- */
+
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: px;
+}
 
 .portfolio-title {
     text-transform: capitalize;
