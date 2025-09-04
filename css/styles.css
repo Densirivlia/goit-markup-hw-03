@@ -79,8 +79,9 @@ a {
 }
 .address-list {
     display: flex;
-    gap: 32px;
+    gap: 40px;
     padding: 24px 0;
+    margin-right: 0
 }
 
 
