@@ -156,6 +156,7 @@ a {
 /* --- Sections 2 --- */
 
 .advent {
+
 }
 
 .visually-hidden {
@@ -171,10 +172,10 @@ a {
 }
 
 .advent-list {
-    padding: 120px 0;
     display: flex;
     gap: 24px;
-    width: calc((100% - 3 * 24px)) / 4;
+    padding: 120px 0;
+    width: calc((100% - 72px)) / 4;
 }
 .advent-item {
 
