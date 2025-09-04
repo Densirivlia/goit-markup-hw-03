@@ -56,7 +56,8 @@ a {
 }
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px;
 }
 
 .header .container {
@@ -70,19 +71,17 @@ a {
     align-items: center;
     gap: 40px;
 }
-.nav-list {
-    display: flex;
-    gap: 40px;
-    margin-right: 0
-}
-.address-list {
+.nav-list, .address-list{
     display: flex;
     gap: 40px;
     margin-right: 0
 }
 
+
 .header-container {
     padding: 24px 0;
+
+
 } 
 
 .nav-links {
