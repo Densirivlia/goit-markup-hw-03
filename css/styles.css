@@ -89,7 +89,6 @@ a {
 
 .address {
     font-style: normal;
-    padding: 24px 0;
 }
 .address-link {
     line-height: 1.5;
@@ -98,6 +97,9 @@ a {
     letter-spacing: 0.02em;
 }
 
+.address-list {
+    padding: 24px 0;
+}
 /* --- Sections 1 --- */
 
 .hero {
