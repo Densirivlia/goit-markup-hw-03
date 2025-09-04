@@ -46,6 +46,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-right: 76px;
+    padding: 24px 0;
     
 }
 .nav-logo .text-logo {
@@ -53,7 +54,6 @@ a {
 }
 
 .header {
-    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -81,7 +81,9 @@ a {
     margin-right: 0
 }
 
-
+/* header-container {
+    padding: 24px 0;
+} */
 
 .nav-links {
     font-style: normal;
