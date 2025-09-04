@@ -54,12 +54,12 @@ a {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
+    
 }
 .nav-list, .address-list{
     display: flex;
     gap: 40px;
-    margin-right: 0
+    margin-right: 0;
 }
 
 .header-container {
@@ -67,8 +67,6 @@ a {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-
-
 } 
 
 .nav-links {
@@ -78,6 +76,7 @@ a {
     color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
     
 }
 .nav-links:hover, 
@@ -96,10 +95,14 @@ a {
     color: #434455;
     letter-spacing: 0.02em;
 }
-
-.address-list {
+.nav-item, .address-item {
     padding: 24px 0;
 }
+
+.address-list {
+}
+
+
 /* --- Sections 1 --- */
 
 .hero {
