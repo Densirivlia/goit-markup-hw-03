@@ -53,8 +53,7 @@ a {
 }
 
 .header {
-    padding-top: 24px;   
-    padding-bottom: 24px;
+    padding: 0px;   
     border-bottom: 1px solid #e7e9fc
 
 }
@@ -69,14 +68,17 @@ a {
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 .nav-list {
     display: flex;
-    gap: 32px;
+    gap: 40px;
+    padding: 24px 0;
 }
 .address-list {
     display: flex;
-    gap: 40px;
+    gap: 32px;
+    padding: 24px 0;
 }
 
 
