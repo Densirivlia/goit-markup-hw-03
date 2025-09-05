@@ -146,8 +146,8 @@ a {
 
 /* --- Sections 2 --- */
 
-.advent {
-
+.advant {
+    padding: 120px 0;
 }
 
 .visually-hidden {
@@ -165,11 +165,10 @@ a {
     display: flex;
     gap: 24px;
     
-    
 }
 .advent-item {
-width: calc((100% - 72px)) / 4;
-padding: 120px 0;
+    width: calc((100% - 72px) / 4);
+    
 }
 
 .advent-subtitle {
