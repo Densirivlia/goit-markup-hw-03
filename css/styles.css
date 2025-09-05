@@ -154,7 +154,6 @@ a {
     position: absolute;
     width: 1px;
     height: 1px;
-    padding: 0;
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
@@ -165,11 +164,12 @@ a {
 .advent-list {
     display: flex;
     gap: 24px;
-    padding: 120px 0;
-    width: calc((100% - 72px)) / 4;
+    
+    
 }
 .advent-item {
-
+width: calc((100% - 72px)) / 4;
+padding: 120px 0;
 }
 
 .advent-subtitle {
